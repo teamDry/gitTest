@@ -7,13 +7,12 @@ import org.springframework.stereotype.Controller;
 public class MemberController {
     private String testString;
 
-
+    public MemberController() {
+        this.testString = "test";
+    }
 
     public void chMethod() {
         testString = "test";
     }
 
-    public MemberController() {
-        this.testString = "test";
-    }
 }
