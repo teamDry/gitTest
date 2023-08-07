@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 public class MemberController {
     private String testString;
 
-    public MemberController() {
+    public MemberController(@Autowired String testString) {
         this.testString = "test";
     }
 
