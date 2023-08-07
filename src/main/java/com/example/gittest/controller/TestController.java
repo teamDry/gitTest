@@ -10,4 +10,8 @@ public class TestController {
     public void objectTest() {
         System.out.println("object Test!");
     }
+
+    public void printTest() {
+        System.out.println(test);
+    }
 }
