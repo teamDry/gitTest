@@ -10,9 +10,4 @@ public class MemberController {
     public MemberController(@Autowired String testString) {
         this.testString = "test";
     }
-
-    public void chMethod() {
-        testString = "test";
-    }
-
-}
+  }
