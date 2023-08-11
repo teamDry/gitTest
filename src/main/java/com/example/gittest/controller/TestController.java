@@ -21,5 +21,8 @@ public class TestController {
     public void printA(String a) {
 
     }
-    
+    public void printB (String a) {
+
+    }
+
 }
