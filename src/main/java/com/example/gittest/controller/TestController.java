@@ -14,4 +14,8 @@ public class TestController {
     public void printTest() {
         System.out.println(test);
     }
+
+    public void printA() {
+        System.out.println("hi");
+    }
 }
