@@ -18,11 +18,6 @@ public class TestController {
     public void printA() {
         System.out.println("hi");
     }
-    public void printA(String a) {
 
-    }
-    public void printB (String a) {
-
-    }
 
 }
